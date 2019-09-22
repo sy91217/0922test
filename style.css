@@ -7,7 +7,7 @@ body{
     font-size:40px;
     font-weight:bold;
     color:white;
-    background-color:rgb(240, 193, 255);
+    background-color:rgb(51, 139, 255);
     padding-top:30px;
     padding-bottom:30px;
 }
@@ -69,6 +69,11 @@ body{
     line-height:40px;
     text-align:center;
 }
+/* .left 中的細節 */
+.content>.left>.head{
+    width:300px;height:300px;
+    border-radius:50%;
+}
 @media (max-width:500px){
     .content>.left{
         width:95%;
@@ -76,11 +81,9 @@ body{
     .content>.right{
         widows:95%;
     }
-}
-/* .left 中的細節 */
-.content>.left>.head{
-    width:300px;height:300px;
-    border-radius:50%;
+    .content>.left>.head{
+        width:90%;height:auto;
+    }
 }
 /* .right 中的細節 */
 .content>.right>.title{
