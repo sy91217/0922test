@@ -25,7 +25,7 @@ body{
 @media (max-width:500px){
     .nav{
         white-space:space nowrap;
-        overflow-x:visible;
+        overflow-x:auto;
     }
     /* 螢幕尺寸小於 500 像素的時候，額外套用這個區塊的設定 */
     /* 選項少的時候，讓他變小
